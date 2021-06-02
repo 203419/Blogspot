@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #0C2D48;
+    border-style: none;
+    width: 100%;
+}
+
+.imagen-header {
+    width:180px;
+    margin: 0 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.header-nav {
+    height: inherit;
+}
+
+.header-ol {
+    margin: 0 0px;
+    list-style: none;
+    display: flex;
+    height: inherit; 
+}
+
+.link{
+    height: inherit;
+    font-size: 19px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    margin: 0 30px;
+} 
+
+.header-nav ol a:hover {
+    color: grey;
+}
+
+
+.presentacion-div {
+    height: 300px;
+    padding-left: 30px;
+    background-color: #003B73;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.presentacion-img {
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 130%; 
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+}
+
+
+.introduccion {
+    padding: 70px;
+    height: 100%;
+    background-color: #ecf0f1;
+}
+
+.intro-div { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 60px 0;
+    height: 400px;
+}
+
+.intro-texto {
+    width: 350px;
+    margin-left: 90px;
+}
+
+.intro-img {
+    width: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 90px;
+}
+
+.intro-div_img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.intro-h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.intro-url {
+    position: relative;
+    text-decoration: none;
+    left: 30%;
+    top: 40px;
+    padding: 10px 15px;
+    background-color: #568B32;
+    color: black;
+    border-radius: 15px;
+    overflow: hidden;
+    font-weight: 800;
+}
+
+.intro-p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+.escenarios h2 {
+    text-align: center;
+    padding: 25px 0;
+    color: aliceblue;
+}
+
+.escenarios {
+    background-color: black;
+    color: aliceblue;
+}
+
+.esce-descripcion {
+    text-align: center;
+}
+
+.escenarios-div {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.esce-article {
+    margin: 25px;
+    width: 330px;
+    height: 420px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: azure;
+    background: #189AB4;
+    border-radius: 10px;
+}
+
+.esce-article img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.escenarios-info {
+    text-align: center;
+}
+
+.escenarios-info h3 {
+    margin: 10px 0;
+}
+
+.escenarios-info p {
+    margin-bottom: 12px;
+}
+.escenarios-info a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #05445E;
+    color: azure;
+    border-radius: 10px;
+}
+
+
+.eventos {
+    background-color: #ecf0f1;
+}
+.eventos h2 {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.eventos-div {
+    margin: 0 15%;
+    text-align: center;
+}
+
+.eventos-div h3,p {
+    padding: 10px;
+}
+
+.eventos-vid {
+    align-items: center;
+    width: 562px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+
+.footer-empresa {
+    height: 80px;
+    background-color: #0C2D48;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img {
+    width: 150px;
+}
+
+.footer-logo {
+    vertical-align: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.footer-contacto {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.footer-texto {
+    display: inline-block;
+    height: 40px;
+}
+
+.footer-rs a{
+    margin: 0 5px;
+}
+
+.footer-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+}
+
+.footer-link.youtube {
+    background-image: url(/imagenes/logo-yt.png);
+}
+
+.footer-link.face {
+    background-image: url(/imagenes/logo-fb.png);
+}
+
+.footer-link.twitter {
+    background-image: url(/imagenes/logo-twitter.png);
+}
+
+footer h5{
+    text-align: center;
+    background-color: black;
+    color: gray; 
+    padding: 10px;
+}
